@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@400;600;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+    padding: 1em;
+}
+
+header{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.c-header__heading{
+    font-family: 'PT Serif', serif;
+    font-size: 36px;
+}
+
+.c-header__subHeading{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.c-header__text{
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 439px;
+}
+
+main{
+    margin: 0 auto;
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    gap:1em;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+.c-card{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    gap:1em;
+}
+
+.card_1 ,.card_3, .card_5{
+    align-self: start;
+}
+
+.card_2, .card_4, .card_6{
+    padding-top: 7em;
+}
+
+
+.c-card__img{
+    max-width: 238px;
+}
+
+.c-card__title{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    justify-self: flex-start;
+}
+
+.c-card__name{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 890px) {
+    .card_1, .card_3, .card_4, .card_6{
+        align-self: start;
+        padding-top: 0em;
+    }
+    
+    .card_2, .card_5{
+        padding-top: 7em;
+    }
+    
+}
