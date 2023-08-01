@@ -6,10 +6,17 @@
     margin: 0;
 }
 
-
-body{
-    padding: 1em;
+html{
+    height: 100svh;
 }
+body{
+    height: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 header{
     margin: 0 auto;
@@ -82,14 +89,13 @@ main{
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
+    
     width: 100%;
-    padding: 1em;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
+
 @media only screen and (min-width: 890px) {
     .card_1, .card_3, .card_4, .card_6{
         align-self: start;
