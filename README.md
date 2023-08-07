@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://rickhalmoguera.github.io/my-team-page-master/">
+    <a href="https://rickhalmoguera.github.io/interior-consultant-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/vpP9C5diIdYFTQfcs7DB">
+    <a href="https://devchallenges.io/solutions/piVZXw6vpTEutcMD8Ack">
       Solution
     </a>
     <span> | </span>
